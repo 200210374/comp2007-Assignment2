@@ -1,0 +1,50 @@
+﻿@model comp2007_Assignment2.itemsMenu
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>itemsMenu</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Item_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Item_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Item_group)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Item_group)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.whatIs)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.whatIs)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
