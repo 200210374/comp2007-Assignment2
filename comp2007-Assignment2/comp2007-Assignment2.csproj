@@ -205,6 +205,10 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\Dragon.jpg" />
+    <Content Include="Content\images\golden.png" />
+    <Content Include="Content\images\homeImage.jpg" />
+    <Content Include="Content\images\roses.jpg" />
     <Content Include="Content\Main.css" />
     <Content Include="databaseModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -290,7 +294,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\images\" />
     <Folder Include="Views\database\" />
     <Folder Include="Views\navbar\" />
   </ItemGroup>
