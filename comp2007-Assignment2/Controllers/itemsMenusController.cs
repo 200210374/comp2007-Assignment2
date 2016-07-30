@@ -8,6 +8,10 @@ using System.Web;
 using System.Web.Mvc;
 using comp2007_Assignment2;
 
+
+
+//This page is so I can create a table out of the database information
+
 namespace comp2007_Assignment2.Controllers
 {
     public class itemsMenusController : Controller

@@ -1,0 +1,12 @@
+﻿
+
+
+
+
+
+Final version
+I was not able to make a table because of some missing dll from what ive read online.
+i was able to make a link that shows a table.
+
+Main.css file is in the layout header but does not activate at all
+
